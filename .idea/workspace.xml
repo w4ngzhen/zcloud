@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e555a79e-2f5e-424e-9ec9-32fb74f8542a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/DeleteAction.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/upload/test1/云核心网产品线介绍.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/upload/test2/2012实验室介绍.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/upload/test3/云核心网产品线介绍.docx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/action/UploadAction.class" afterPath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/action/UploadAction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/action/UserDealAcction.class" afterPath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/action/UserDealAcction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/fileutil/FileTool.class" afterPath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/fileutil/FileTool.class" />
@@ -18,11 +14,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/struts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/content/zcloud.jsp" afterPath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/content/zcloud.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zcloud/struts.xml" afterPath="$PROJECT_DIR$/out/production/zcloud/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/UserDealAcction.java" afterPath="$PROJECT_DIR$/src/action/UserDealAcction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fileutil/FileTool.java" afterPath="$PROJECT_DIR$/src/fileutil/FileTool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/intercepter/AuthorityIntercepter.java" afterPath="$PROJECT_DIR$/src/intercepter/AuthorityIntercepter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/content/zcloud.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/content/zcloud.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -891,7 +882,7 @@
       <workItem from="1497243333157" duration="6949000" />
       <workItem from="1497709914169" duration="214000" />
       <workItem from="1497763602995" duration="12186000" />
-      <workItem from="1497788413181" duration="3000" />
+      <workItem from="1497788413181" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="20170618">
       <created>1497765769362</created>
@@ -900,11 +891,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497765769362</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete file complete">
+      <created>1497788436824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1497788436824</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75684000" />
+    <option name="totallyTimeSpent" value="75709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -951,7 +949,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20170618" />
-    <option name="LAST_COMMIT_MESSAGE" value="20170618" />
+    <MESSAGE value="delete file complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete file complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
