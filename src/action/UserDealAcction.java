@@ -67,6 +67,7 @@ public class UserDealAcction extends ActionSupport {
         }
         Map<String, Object> userInfo = ActionContext.getContext().getSession();//记录用户登录信息
         userInfo.put("username", user.getUsername());
+        //获取用户文件夹下面的所有文件,存放在map中
         String userDir = FileTool.getWebRootPath()
                 + savePath + ActionContext.getContext().getSession().get("username");
         FileTool.makeDir(userDir);

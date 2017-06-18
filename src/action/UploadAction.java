@@ -10,6 +10,8 @@ import javax.servlet.ServletContext;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by mee on 2017/6/6.
@@ -24,6 +26,15 @@ public class UploadAction extends ActionSupport {
     private String uploadContentType;
     private String uploadFileName;
     private String savePath;
+    private Map<String, Double> fileMap = new HashMap<>();
+
+    public Map<String, Double> getFileMap() {
+        return fileMap;
+    }
+
+    public void setFileMap(Map<String, Double> fileMap) {
+        this.fileMap = fileMap;
+    }
 
     public File getUpload() {
         return upload;
@@ -70,6 +81,9 @@ public class UploadAction extends ActionSupport {
             fos.write(buffer, 0, len);
         }
         setUploadFileName(uploadFileName);
+        //获取用户文件夹下面的所有文件,存放在map中
+        FileTool.makeDir(userDir);
+        FileTool.getFileInfoMap(userDir, fileMap);
         return SUCCESS;
     }
 }
