@@ -39,6 +39,15 @@
             <interceptor-ref name="defaultStack"/>
             <interceptor-ref name="authorityIntercepter"/>
         </action>
+        <!-- 文件删除action配置 -->
+        <action name="delete" class="action.DeleteAction">
+            <!-- 所需要删除的文件的存储路径，该路径是相对与web应用的根路径（不包含文件本身） -->
+            <param name="fileDirPath">WEB-INF/upload/</param>
+            <result name="success">/WEB-INF/content/zcloud.jsp</result>
+            <result name="input">/WEB-INF/content/index.jsp</result>
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="authorityIntercepter"/>
+        </action>
         <!-- 用户注册页面的用户名唯一性验证action（ajax） -->
         <action name="usercheck" class="action.RegisterUserCheckAction">
             <result type="stream">

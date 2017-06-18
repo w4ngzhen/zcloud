@@ -46,8 +46,18 @@ public class FileTool {
             //System.out.println("文件夹存在，不需要创建");
         }
     }
-
-    //获取web应用的根路径
+    //根据文件绝对路径删除文件
+    public static boolean deleteFile(String fileRealPath) {
+        File f = new File(fileRealPath);
+        if (f.exists() && f.isFile()) {
+            f.delete();
+            System.out.println(true);
+            return true;
+        }
+        System.out.println(false);
+        return false;
+    }
+    //获取web应用的根路径（包含最后一个／）
     public static String getWebRootPath() throws Exception {
         ActionContext actionContext = ActionContext.getContext();
         ServletContext servletContext = (ServletContext) actionContext.get(ServletActionContext.SERVLET_CONTEXT);

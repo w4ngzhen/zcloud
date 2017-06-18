@@ -77,11 +77,9 @@ public class UserDealAcction extends ActionSupport {
 
     //用户注册之后的action
     public String register() {
-        if (userDao.userRegister(user)) {
+        if (userDao.userRegister(user))
             return SUCCESS;
-        } else {
-            addFieldError("user", "注册失败");
-        }
+        addFieldError("user", "注册失败");
         return INPUT;
     }
 
