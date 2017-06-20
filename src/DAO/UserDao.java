@@ -1,6 +1,6 @@
 package DAO;
 
-import bean.User;
+import domain.User;
 
 /**
  * Created by mee on 2017/6/8.

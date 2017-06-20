@@ -2,12 +2,11 @@ package action;
 
 import DAO.UserDao;
 import DAO.UserDaoImpl;
-import bean.User;
+import domain.User;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ActionContext;
 import fileutil.FileTool;
 
-import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 

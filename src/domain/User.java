@@ -1,4 +1,4 @@
-package bean;
+package domain;
 
 /**
  * Created by mee on 2017/6/8.

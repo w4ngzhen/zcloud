@@ -1,6 +1,6 @@
 package DAO;
 
-import bean.User;
+import domain.User;
 import dbutil.DBConnection;
 
 import java.sql.Connection;
