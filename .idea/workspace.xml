@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e555a79e-2f5e-424e-9ec9-32fb74f8542a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/bean/User.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/bean/User.java" afterPath="$PROJECT_DIR$/src/domain/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DAO/UserDao.java" afterPath="$PROJECT_DIR$/src/DAO/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DAO/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/DAO/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/DownloadAction.java" afterPath="$PROJECT_DIR$/src/action/DownloadAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/UserDealAcction.java" afterPath="$PROJECT_DIR$/src/action/UserDealAcction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/zcloud/bean/User.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/DAO/UserDao.class" afterPath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/DAO/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/DAO/UserDaoImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/DAO/UserDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/action/DeleteAction.class" afterPath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/action/DeleteAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/action/DownloadAction.class" afterPath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/action/DownloadAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/action/UserDealAcction.class" afterPath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/action/UserDealAcction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zcloud/DAO/UserDao.class" afterPath="$PROJECT_DIR$/out/production/zcloud/DAO/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zcloud/DAO/UserDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/zcloud/DAO/UserDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zcloud/action/DeleteAction.class" afterPath="$PROJECT_DIR$/out/production/zcloud/action/DeleteAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zcloud/action/DownloadAction.class" afterPath="$PROJECT_DIR$/out/production/zcloud/action/DownloadAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zcloud/action/UserDealAcction.class" afterPath="$PROJECT_DIR$/out/production/zcloud/action/UserDealAcction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/out/artifacts/zcloud_war_exploded/WEB-INF/classes/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/zcloud/struts.xml" afterPath="$PROJECT_DIR$/out/production/zcloud/struts.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +30,7 @@
       <file leaf-file-name="DownloadAction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/action/DownloadAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="399">
               <caret line="71" column="40" lean-forward="true" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -859,7 +863,7 @@
       <workItem from="1497709914169" duration="214000" />
       <workItem from="1497763602995" duration="12186000" />
       <workItem from="1497788413181" duration="28000" />
-      <workItem from="1497856577210" duration="10441000" />
+      <workItem from="1497856577210" duration="10477000" />
     </task>
     <task id="LOCAL-00001" summary="20170618">
       <created>1497765769362</created>
@@ -875,11 +879,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497788436824</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="download complete">
+      <created>1497938595523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1497938595523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86150000" />
+    <option name="totallyTimeSpent" value="86186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -904,7 +915,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33001423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33001423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25928918" sideWeight="0.4915254" order="0" side_tool="false" content_ui="combo" />
@@ -928,7 +939,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20170618" />
     <MESSAGE value="delete file complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete file complete" />
+    <MESSAGE value="download complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="download complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1350,7 +1362,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/action/DownloadAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="399">
           <caret line="71" column="40" lean-forward="true" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />

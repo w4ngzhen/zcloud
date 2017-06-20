@@ -39,6 +39,21 @@
             <interceptor-ref name="defaultStack"/>
             <interceptor-ref name="authorityIntercepter"/>
         </action>
+        <!-- 文件下载action配置 -->
+        <action name="download" class="action.DownloadAction">
+            <param name="savePath">WEB-INF/upload/</param>
+            <!-- 执行action之后，返回一个下载流 -->
+            <result name="success" type="stream">
+                <!-- 指定下载文件的文件类型 -->
+                <param name="contentType">application/octet-stream;charset=ISO8859-1</param>
+                <!-- 指定由getTargetFile方法返回的InputStream -->
+                <param name="inputName">inputStream</param>
+                <!-- 指定文件的下载名 -->
+                <param name="contentDisposition">attachment;filename="${downloadFile}"</param>
+                <!-- 文件下载的缓存大小 -->
+                <param name="bufferSize">4096</param>
+            </result>
+        </action>
         <!-- 文件删除action配置 -->
         <action name="delete" class="action.DeleteAction">
             <!-- 所需要删除的文件的存储路径，该路径是相对与web应用的根路径（不包含文件本身） -->
